@@ -1,4 +1,6 @@
-class Bat extends Zombie{
+import Zombie from './Zombie';
+
+export default class extends Zombie{
     moveLeft(){
         this.counter++;
         this.positionX -= this.velocity;

@@ -1,3 +1,14 @@
+import Background from './Background';
+import Bat from './Bat.js';
+import Bullet from './Bullet.js';
+import Engine from './Engine.js';
+import Explosion from './Explosion.js';
+import Image from './Image.js';
+import MainHero from './MainHero.js';
+import Music from './Music.js';
+import Zombie from './Zombie.js';
+//import '../scss/style.scss';
+
 (function(){
    
     const canvas = document.getElementById('canvas');

@@ -1,4 +1,6 @@
-class Background extends Image{
+import Image from './Image';
+
+export default class Background extends Image{
     drawImage(y){
         if(this.axisX <= -this.width){
             this.axisX = this.width;

@@ -1,4 +1,4 @@
-class Engine{
+export default class{
     constructor(context){
         this.context = context;
         this.heroToDo = null;

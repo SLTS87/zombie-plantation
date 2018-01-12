@@ -1,4 +1,6 @@
-class Zombie extends Unit{
+import Unit from './Unit';
+
+export default class extends Unit{
     constructor(path, width, height, count, positionY, context, velocity){
         super(path, width, height, count, 1300, positionY, context);
         this.velocity = velocity;

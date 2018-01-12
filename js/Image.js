@@ -1,4 +1,4 @@
-class Image{
+export default class{
     constructor(path, count, context, axisX, velocity){
         this.img = null;
         this.path = path;

@@ -1,4 +1,4 @@
-class Music{
+export default class{
     constructor(arr, vol){
         this.dom = null;
         this.state = 'stop';

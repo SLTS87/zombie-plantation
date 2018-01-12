@@ -1,4 +1,4 @@
-class Unit{
+export default class{
     constructor(path, width, height, count, positionX, positionY, context){
         this.img = null;
         this.path = path;

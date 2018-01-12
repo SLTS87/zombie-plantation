@@ -1,4 +1,6 @@
-class Explosion extends Unit{
+import Unit from './Unit';
+
+export default class extends Unit{
     detonate(){
         this.counter ++;
         if(this.counter % 5 == 0){
